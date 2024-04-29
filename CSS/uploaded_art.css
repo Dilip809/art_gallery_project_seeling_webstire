@@ -1,0 +1,41 @@
+body {
+
+    background-color: lightblue;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+table {
+    font-family: 'Mate SC', serif;
+    font-size: 22px;
+    margin-top: 5px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+tr {
+    max-width: 100%;
+}
+
+td {
+    padding: 20px 30px;
+    width: 10%;
+}
+
+a {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border: red;
+    border-radius: 8px;
+}
+
+.go-back a {
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+}

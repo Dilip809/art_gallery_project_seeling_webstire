@@ -1,0 +1,75 @@
+img {
+    margin: 5px;
+    width: 280px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.image {
+    float: left;
+    margin-left: 66px;
+    margin-top: 35px;
+}
+
+p {
+    margin-left: 5px;
+    color: black;
+}
+
+.box {
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color: #dcdcdc;
+    padding: 12px 14px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+header {
+    /*background-color: #f0f0f0;*/
+    background-image: url("wc1.jpg");
+    background-size: cover;
+    padding: 50px 100px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+h1 {
+    text-align: center;
+    background-color: #16161D;
+    padding: 20px;
+    color: white;
+    margin-top: 0%;
+    font-family: 'Mate SC', serif;
+}
+
+.box button:hover {
+    background-color: red;
+}
+
+.form {
+    display: flex;
+}
+
+.view-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,103 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    background-color: #16161D;
+    padding: 20px;
+    color: white;
+    margin-top: 0%;
+    font-family: 'Mate SC', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.go-back {
+    margin-left: 20px;
+}
+
+header {
+    background-image: url("wc1.jpg");
+    background-size: cover;
+    padding: 50px 100px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: -5px;
+}
+
+.box {
+    float: left;
+    margin: 50px;
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 280px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.view-btn {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.view-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #8a2be2;
+}
+.data{
+  background-color: rgb(200, 20, 255);
+}

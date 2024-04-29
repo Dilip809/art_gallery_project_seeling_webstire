@@ -1,0 +1,48 @@
+body{
+    background-image: url("art.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 12%;
+    margin-left: -1%;
+}
+a{
+    font-size: 3px;
+}
+form{
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+input{
+    width: 20%;
+    background: transparent;
+    border-color: rgb(0, 0, 0);
+}
+
+#a{
+    margin-left: -230px;
+}
+#b{
+    margin-left: -235px;
+}
+#c{
+    margin-left: -162px;
+}
+#d{
+    margin-left: -198px;
+}
+#e{
+    margin-left: -187px;
+}
+#f{
+    margin-left: -176px;
+}
+button{
+    width: 10%;
+    background-color:powderblue;
+}

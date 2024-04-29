@@ -1,0 +1,72 @@
+body {
+    background-image: url("bkg3.jpg");
+    background-size: cover;
+    font-family: 'Amatic SC', cursive;
+    color: darkblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #001f3f;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
